@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'leaping_frog'
+gem 'leapfrog_challenge'
 ```
 
 And then execute:
@@ -24,7 +24,7 @@ Or install it yourself as:
     ```$rspec```
 
 Require the gem. 
-``` require 'leaping_frog'
+``` require 'leapfrog_challenge'
 
 
 TODO: Write usage instructions here
