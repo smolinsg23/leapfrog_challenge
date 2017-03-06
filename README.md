@@ -1,8 +1,6 @@
- # LeapingFrog
+# LeapFrog_challenge
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/leaping_frog`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -19,15 +17,27 @@ And then execute:
 Or install it yourself as:
 
     $ gem install leaping_frog
+#System dependencies
+```
+   "rake", "~> 10.0"
+   "rspec", "~> 3.0"
+   "webmock", "~> 2.3.2"
+   "json", "~> 1.8.1"
+   "rest-client", "~> 1.6.7"   
+   ```
 
     ## Running Tests
-    ```$rspec```
+    ```$rspec or $rake ```
 
 Require the gem. 
-``` require 'leapfrog_challenge'
+``` 
+require 'leapfrog_challenge' 
+                     
 
 
-TODO: Write usage instructions here
+
+### Instructions
+with this library A user can enter in there income zipcode and age, and it will generate a customer score and grade based off of the params entered.
 
 ## Development
 
